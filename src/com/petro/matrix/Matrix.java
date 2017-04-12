@@ -1,4 +1,4 @@
-package com.petro;
+package com.petro.matrix;
 
 
 public class Matrix {

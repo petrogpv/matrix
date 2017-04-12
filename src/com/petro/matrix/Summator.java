@@ -1,4 +1,4 @@
-package com.petro;
+package com.petro.matrix;
 
 public class Summator {
     public static Matrix sum(Matrix firstMatrix, Matrix secondMatrix) {

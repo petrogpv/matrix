@@ -1,7 +1,7 @@
 package com.petro.matrix;
 
-class Summator {
-    public static Matrix sum(Matrix firstMatrix, Matrix secondMatrix) {
+public class Summator {
+    public static Matrix sumMatrices(Matrix firstMatrix, Matrix secondMatrix) {
         if (firstMatrix.getVerticalSize() != secondMatrix.getVerticalSize()
                 || firstMatrix.getHorizontalSize() != secondMatrix.getHorizontalSize()) {
             throw new ArithmeticException("Structural constraint: matrices have different size. Calculation impossible.");

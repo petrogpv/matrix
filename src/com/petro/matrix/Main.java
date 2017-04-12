@@ -11,6 +11,6 @@ public class Main {
         System.out.println("+");
         System.out.println(matrix2.toString());
         System.out.println("=");
-        System.out.println(Summator.sum(matrix, matrix2).toString());
+        System.out.println(Summator.sumMatrices(matrix, matrix2).toString());
     }
 }

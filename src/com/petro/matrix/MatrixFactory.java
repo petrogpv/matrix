@@ -1,7 +1,7 @@
 package com.petro.matrix;
 
 
-public class MatrixFactory {
+class MatrixFactory {
     public static Matrix createMatrix(int v, int h) {
         Matrix matrix = new Matrix(v, h);
 

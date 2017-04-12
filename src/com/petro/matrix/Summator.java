@@ -1,6 +1,6 @@
 package com.petro.matrix;
 
-public class Summator {
+class Summator {
     public static Matrix sum(Matrix firstMatrix, Matrix secondMatrix) {
         if (firstMatrix.getVerticalSize() != secondMatrix.getVerticalSize()
                 || firstMatrix.getHorizontalSize() != secondMatrix.getHorizontalSize()) {

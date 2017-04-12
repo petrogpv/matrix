@@ -1,7 +1,7 @@
 package com.petro.matrix;
 
 
-public class Matrix {
+class Matrix {
     private int[][] arr;
 
     public Matrix(int v, int h) {

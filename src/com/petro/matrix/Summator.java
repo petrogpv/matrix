@@ -11,7 +11,7 @@ public class Summator {
                 firstMatrix.getHorizontalSize());
         int elementsSum;
 
-        for (int i = 0; i < resultMatrix.getVerticalSize(); i++) {
+        for (int i = 0; i <  resultMatrix.getVerticalSize(); i++) {
             for (int j = 0; j < resultMatrix.getHorizontalSize(); j++) {
                 elementsSum = firstMatrix.getElement(i, j) + secondMatrix.getElement(i, j);
                 resultMatrix.setElement(i, j, elementsSum);

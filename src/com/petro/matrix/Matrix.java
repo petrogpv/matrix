@@ -30,19 +30,15 @@ public class Matrix {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("{");
 
-        for (int i = 0; i < getVerticalSize(); i++) {
+        for (int [] arrVertical: arr) {
             stringBuilder.append("{");
-            for (int j = 0; j < getHorizontalSize(); j++) {
-                stringBuilder.append(getElement(i, j));
-                if (j != getHorizontalSize() - 1) {
-                    stringBuilder.append(", ");
-                }
+            for (int arrHorizontal: arrVertical) {
+                stringBuilder.append(arrHorizontal).append(", ");
             }
-            stringBuilder.append("}");
-            if (i != getVerticalSize() - 1) {
-                stringBuilder.append(", ");
-            }
+            stringBuilder.delete(stringBuilder.length()-2, stringBuilder.length());
+            stringBuilder.append("}").append(", ");
         }
+        stringBuilder.delete(stringBuilder.length()-2, stringBuilder.length());
         stringBuilder.append("}");
         return stringBuilder.toString();
     }
